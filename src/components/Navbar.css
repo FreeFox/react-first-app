@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 91px;
+    background-color: #21222a;
+    padding: 0px 27px 0px 26px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #61dafb;
+}
+
+.logo > h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.extra-title h3 {
+    font-weight: 600;
+    color: #deebf8;
+}
+
+.logo-image {
+    height: 24.5px;
+    width: 28px;
+}

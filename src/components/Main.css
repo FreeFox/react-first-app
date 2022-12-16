@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Inter;
+    background-color: #282d35;
+}
+
+#root {
+    width: 100%;
+}
+
+.main {
+    color: #fff;
+    height: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 1px 3%;
+}
+
+.main h1 {
+    font-weight: 700;
+}
+
+.facts-list li::marker {
+    color: #61dafb;
+    font-size: 1.4rem;
+}
+
+.facts-list li:not(:last-child) { 
+    margin-bottom: 10px;
+}
