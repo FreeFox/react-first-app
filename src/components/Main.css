@@ -4,19 +4,24 @@ html, body {
 
 body {
     font-family: Inter;
-    background-color: #282d35;
 }
 
 #root {
     width: 100%;
+    height: 100%;
 }
 
 .main {
-    color: #fff;
+    color: #2b283a;
     height: 100%;
     font-weight: 400;
     font-size: 16px;
     padding: 1px 3%;
+}
+
+.dark .main {
+    color: #fff;
+    background-color: #282d35;
 }
 
 .main h1 {
@@ -24,6 +29,11 @@ body {
 }
 
 .facts-list li::marker {
+    color: #00abca;
+    font-size: 1.4rem;
+}
+
+.dark .facts-list li::marker {
     color: #61dafb;
     font-size: 1.4rem;
 }
